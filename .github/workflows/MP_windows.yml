@@ -36,7 +36,7 @@ jobs:
 
       - name: Pack
         shell: bash
-        run: tar cJfv Windows.tar.xz mp/game/mod_sdk2013ce/bin
+        run: tar cJfv Windows.tar.xz mp/
 
       - name: Upload product
         uses: actions/upload-artifact@v2
